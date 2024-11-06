@@ -1,15 +1,74 @@
 @charset =Utf-8
 
-Body {
-font-family: Arial, Helvetica, sans-serif;
-margin: 0;
-padding: 0;
-}
-header{
-text-align:left;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kurale&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freeman&family=Kurale&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Sriracha&display=swap');
+
+
+
+:root {
+    --cordefundo:#a74d19;
+    --cor1: #E03F19;
+    --cor2:#E08519;
+    --cor3:#E01C19;
+    --cor4:#E0A019;
+    --cor5:#E59A6E;
+    
+    --font1:Arial, Helvetica, sans-serif;
+    --font2: "Sriracha",serif; 
+    --font3:"Freeman", sans-serif;  
 
 }
- nav ul li {
+
+
+Body {
+background:linear-gradient(to bottom,#E01C19,#E0A019),#E03F19;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+padding: 0px;
+color: black;
+height: 100vh;
+margin: 0;
+
+}
+
+
+header{
+text-align:left;
+color:black;
+
+}
+
+header h1{
+    font-family: var(--font2);
+    color: rgb(12, 12, 12);
+    padding: 20px;
+   font-style: oblique;
+   
+}
+ nav li {
     text-align:left;
     display:inline;
+   box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.178);
+   padding: 10px;
+    
 }
+nav a {
+   color:white;
+    padding: 20pxpx;
+    margin: 0px ;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 15px;
+}
+nav > a:hover {
+    background-color:var(--cor4);
+    color:white;
+    border-radius:3px;
+    transition-duration: 5px;
+    color: var(--cor4);
+}
+main{
+    background-color: white;
+}
+
