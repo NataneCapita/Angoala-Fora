@@ -56,7 +56,7 @@ header h1{
 }
 nav a {
    color:white;
-    padding: 20pxpx;
+    padding: 20px;
     margin: 0px ;
     text-decoration:none;
     font-weight: bold;
@@ -72,5 +72,12 @@ nav > a:hover {
 }
 main{
     background-color: white;
+}
+
+footer {
+    text-align: center;
+}
+footer strong{
+    color: white;
 }
 
