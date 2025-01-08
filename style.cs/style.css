@@ -31,27 +31,25 @@ height: 100vh;
 margin: 0;
 
 }
-
-
 header{
 text-align:center;
 color:black;
-
 }
 
-header h1{
+header h1 a{
     font-family: var(--font2);
     color: rgb(12, 12, 12);
     padding: 20px 0px;
    font-style: oblique;
-   
+   text-decoration: none;  
 }
+
 h1{
     text-align: left;
 }
  nav {
-    text-align:center;
-    box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.178);
+   text-align:center;
+   box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.178);
    padding: 10px;
    background-color:var(--cor4);
    display: ;
@@ -62,19 +60,17 @@ nav a {
     padding: 14px 20px;
     margin:0 px;
     text-decoration:none;
-    font-weight: bold;
+    font-weight: bold;/*negrito*/
     font-size: 15px;
     display: inline-block;
 
 }
+
 nav a:hover {
     background-color:black;
     color:white;
-    border-radius:3px;
-    transition-duration: 5px;
-   
-    
-    
+    border-radius:5px; /*curvas da borda*/
+    transition-duration: 3px;  
 }
 
 
@@ -83,12 +79,30 @@ main{
 }
 .container {
     padding: 20px;}
+    #sobre{
+        background-color: white;
+        color: black;
+    }
     
 
 footer {
     text-align: center;
+    text-decoration: none;
 }
 footer strong{
-    color: white;
+    color:black;
 }
+.content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.content.active {
+    display: block;
+}
+    
 
