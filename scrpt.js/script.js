@@ -5,7 +5,7 @@
 const navLinks = document.querySelectorAll('nav a');
 
 navLinks.forEach(link => {
-    link.addEventListener('click', () => {
+    link.addEventListener('click', () => {  
         const targetId = link.getAttribute('data-target'); // Pega o ID do alvo
         const targetContent = document.getElementById(targetId); // Encontra o conteúdo correspondente
 
